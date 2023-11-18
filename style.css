@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  .navbar-brand img {
+    
+    filter: brightness(0) invert(1); /* Invert the colors (white logo) */
+    padding-bottom: 5px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white !important; 
+  }
+  .cont{
+  padding-left: 70px;
+  }
+  .navbar-nav .nav-item{
+    margin-inline: 15px;
+  }
+ 
+  .nav-link{
+    transition: all 0.5s linear;
+  }
+  .nav-link:hover{
+    color: red !important;
+    transform: scale(1.3);
+    }
+  
+ /* section -1 */
+ .accessiory>ul>li{
+  margin-inline: 30px;
+  text-align: center;
+  color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+ }
+ .accessiory>ul>li>p>span{
+  color: #BF4800;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 120% */
+letter-spacing: -0.08px;
+ }
+ .accessiory>ul{
+  display: flex;
+  list-style: none;
+ }
+ .accessiory{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ }
+  /*banner-1*/
+  .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .trending{
+    text-align: center;
+    margin:20px 0px ;
+  }
+  .trending>span{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+  }
+  .trending>h3 {
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .trending>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+  }
+  .trending>button{
+    border-radius: 980px;
+background: #0071E3;
+width: 61.203px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+margin-right: 15px;
+  }
+  .trending>a{
+    color: #06C;
+text-decoration: none;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+  }
+  /*banner-2*/
+  .banner-2>h3{
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .banner-2>p{
+    color: #F5F5F7;
+  }
+  .banner-2{
+    background: #000;
+  }
+  /*banner-3 */
+  .banner-3>h3 {
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /*banner-4*/
+  .banner-4{
+    position: relative;
+    width:98vw;
+    text-align: center;
+  }
+  .guide-tour{
+  position: absolute;
+  top:350px;
+  left:250px;
+  }
+  .guide-tour>p{
+    color: #FFF;
+  }
+  .guide-tour>h4{
+color: #FFF !important;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+  }
+  .guide-tour>button{
+color: #000;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+border-radius: 980px;
+background: #FFF;
+width: 142.234px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+  }
+  /*table*/
+  table {
+    margin: 119px auto 0px auto ; 
+    width: calc(100% - 266px) ; 
+    
+}
+th{
+    padding-bottom: 60px ;
+    color: #1D1D1F ;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.phone {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+.p-new{
+    color: #BF4800;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+letter-spacing: -0.12px;
+}
+.phone-feature{
+    margin-top: 30px;
+}
+.phone-feature>img{
+    padding: 10px 10px;
+}
+.phone-feature>h6{
+    margin-bottom: 5px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+}
+.camera-feature  p {
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.859% */
+letter-spacing: -0.224px;
+}
+/* between class has been used to give margin between line under icon in the table*/
+.between{
+    margin-bottom: 10px;
+}
+
+.phone-price{
+ margin-top: 20px;
+}
+.phone-price>p{
+    color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.859% */
+letter-spacing: -0.224px;
+}
+
+.phone-price>button{
+    margin:10px 0px;
+    border-radius: 980px;
+background: #0071E3;
+width: 45px;
+height: 24px;
+padding: 5px 11.784px 5px 11.969px;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+border: none;
+}
+.phone-price>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.table-footer {
+    text-align: center; 
+    padding: 10px 20px 100px 20px; 
+    
+}
+
+.table-footer a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+hr{
+    margin: 50px;
+}
+/*giant*/
+.giant{
+    background-color: #D2D2D7;;
+}
+.wow>h3{
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 90px;
+}
+.wow>p{
+  color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+}
+.wow-1{
+  background: #01012A;
+  width: 90vw;
+  margin: auto;
+ 
+}
+.credit{
+  color: #6E6E73;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.btn>button{
+  color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 15px;
+border-radius: 980px;
+background: #0071E3;
+padding: 18px 30.6px 18px 31px;
+border: none;
+}
+.trade>h3{
+  font-size: 48px;
+}
+.trade>p{
+font-family: SF Pro Display;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+padding:20px 0px;
+}
+
+a{
+  text-decoration: none;
+}
+  @media (max-width: 767px) {
+    .cont {
+      padding-left: 0;
+    }
+    .cont>button{
+        filter: brightness(0) invert(1);
+    }
+    .navbar-brand img {
+       display: none; 
+    }
+    .fa-solid{
+        display: none !important;
+    }
+    .navbar-nav .nav-item :hover{
+      color: rgb(213, 35, 35) !important;
+      transform: scale(1.2) translateX(20px);
+    }
+    .accessiory{
+      display: flex;
+      overflow-x: scroll;
+      width: 90vw;
+     }
+     .trending{
+      text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 8px;
+    }
+    .guide-tour{
+      position: absolute;
+      top:0px;
+      left:0px;
+      }
+      th{
+
+        padding-right: 350px;
+        color: #1D1D1F !important;
+        font-family: SF Pro Display;
+        font-size: 33px;
+       
+    }
+    .phone{
+      margin-inline: 10px;
+    }
+    .table-footer>a {
+      text-align: center !important; 
+      padding: 10px 120px 10px 20px; 
+      margin-bottom: 0px;
+      
+  }
+  table{
+    margin-top: 0px;
+  }
+  .wow-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .trade-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .trade{
+    margin: 0px !important;
+    width:98vw !important;
+  }
+  .trade>h3{
+    font-size: 24px;
+  }
+  .trade>p{
+  font-family: SF Pro Display;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding:10px 0px;
+  }
+
+  }
+
