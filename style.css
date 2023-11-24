@@ -355,6 +355,234 @@ padding:20px 0px;
 a{
   text-decoration: none;
 }
+
+.best-deal{
+  background-image: url('../image/best-place.jpeg');
+  width:98vw ;
+  height:90vh ;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+.why{
+  padding-top: 190px;
+}
+.why>h3 ,
+.wireless>h3,
+.run-family>h3{
+  color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+.why>p,
+.wireless>p{
+  color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+
+}
+.mag-safe{
+  width: 90vw;
+  margin: auto;
+}
+.magic-run{
+  background-image: url('./image/magic-run.png');
+  width:90vw ;
+  height:90vh ;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-top: 25px;
+}
+.run-family>h3{
+  padding-top: 50px;
+}
+.all-accessiory{
+text-align: center;
+margin-top: 10px;
+font-family: SF Pro Display;
+font-size: 24px;
+}
+.apple-benefits > h6{
+ 
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+}
+.apple-benefits > p,
+.apple-benefits>h6 > span
+{
+  color: #1D1D1F;
+font-family: SF Pro Display;
+font-size: 17px;
+font-style: normal;
+}
+.ios-16{
+  background-image: url('./image/ios.jpeg');
+  width:90vw ;
+  height:90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#ios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding-top: 90px;
+ 
+}
+#ios > h3,
+.super-simple>h3{
+  
+font-family: SF Pro Display;
+font-size: 45px;
+}
+#ios > p{
+  font-size: 21px;
+}
+.super-simple{
+  width:55vw;
+  background-color: white;
+  margin: auto; 
+}
+.one{
+  width: 90vw;
+  height: 60vh;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one>p{
+  color: #1D1D1F;
+font-family: SF Pro Display;
+font-size: 28px;
+}
+
+.tv-show{
+  display: flex;
+ margin-bottom: 5px;
+}
+.show-img{
+  margin-inline: 3px;
+}
+.play{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.one-tv-music{
+  width:98vw;
+  margin-left: 55px;
+  
+}
+.apple-tv{
+  margin-inline: 5px;
+}
+/*news+ and arcade*/
+.news-arcade,
+.fitness-gift{
+  display: flex;
+  width:92vw;
+  margin: auto;
+  
+}
+ .news-plus{
+  background-image: url('./image/news+.jpeg');
+  width:45vw;
+  height:70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+ }
+ .arcade{
+  background-image: url('./image/arcade.jpeg');
+  width:45vw;
+  height:70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+ /*fitness+ and gift card*/
+
+ .fitness{
+  margin-right: 10px;
+  width:45vw;
+  height:70vh;
+  background-color: white;
+ }
+ .gift-card{
+  width:45vw;
+  height:70vh;
+  background-color: white;
+ }
+ /*Introducing the Apple*/
+ .Introducing{
+  display: flex;
+  width:90vw;
+  margin-left: 55px;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+ }
+/*term-conditions*/
+footer{
+  background-color: #bfbfc7;
+  
+}
+.term-conditions {
+  text-align: justify;
+  max-width: 800px; 
+  margin: 0 auto;
+   padding-top: 15px;
+}
+
+.term-conditions p {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+color:#424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+
+}
+.border-line{
+  border-top: 1px solid #7d7d7f;
+  text-align: justify;
+  max-width: 800px; 
+  margin: 0 auto;
+  position: relative;
+}
+.icon-large{
+  position: relative;
+  bottom: 15px;
+}
+.footer-list{
+  max-width: 900px; 
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+}
+
+
   @media (max-width: 767px) {
     .cont {
       padding-left: 0;
@@ -436,5 +664,72 @@ a{
   padding:10px 0px;
   }
 
+  .why>h2{
+    color: #1D1D1F;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 34px;
+ 
+
+  }
+  .why>p,
+  .wireless>p{
+    color: #1D1D1F;
+  text-align: center;
+  font-size: 15px;
+  }
+.mag-safe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:98vw ;
+  margin-top: 20px !important;
+
+} 
+.wireless{
+  padding-top: 20px;
+}
+.magic-run,
+.super-simple,
+.one{
+  width: 98vw;
+}
+.benefits{
+ height:250px !important;
+ overflow-y:auto !important;
+}
+.ios-16{
+  width:98vw !important ;
+  height:98vh !important ;
+}
+#ios{
+  padding-top: 400px;
+}
+.apple-tv{
+  width: 75vw !important;
+  margin-left: 0px !important;
+  margin-inline: 0px !important;
+  
+}
+.news-arcade,
+.fitness-gift{
+  display: flex !important;
+  flex-direction: column !important;
+  width:98vw;
+}
+.news-plus,
+.arcade,
+.fitness,
+.gift-card{
+  margin-top: 5px;
+width:98vw ;
+}
+.Introducing{
+  display: flex !important;
+  flex-direction: column !important;
+  width:98vw;
+  margin: 5px !important;
+} 
   }
 
