@@ -1,6 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+header{
+  position: sticky;
+  top:0px;
+  z-index: 1000;
+ 
+}
+nav{
+  background-color: rgba(15, 15, 15, 0.8) !important; /* Adjust the last value (alpha) between 0 and 1 */
 }
   .navbar-brand img {
     
@@ -412,6 +422,10 @@ margin-top: 10px;
 font-family: SF Pro Display;
 font-size: 24px;
 }
+.benefits{
+  width:90vw;
+  margin: auto !important;
+}
 .apple-benefits > h6{
  
 font-family: SF Pro Display;
@@ -473,31 +487,42 @@ font-size: 45px;
 font-family: SF Pro Display;
 font-size: 28px;
 }
+/*tv+music */
 
+.tv{
+  width:44.5925vw;
+  background-color: #000;
+}
 .tv-show{
   display: flex;
- margin-bottom: 5px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
 }
-.show-img{
-  margin-inline: 3px;
+.show-list{
+  margin-inline: 4px;
 }
 .play{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse !important;
 }
-.one-tv-music{
-  width:98vw;
-  margin-left: 55px;
-  
+.music-show{
+  display: flex;
 }
-.apple-tv{
+.music{
+  width:44vw;
+  background-color: white;
+}
+.music-show-list{
   margin-inline: 5px;
 }
+
+
 /*news+ and arcade*/
 .news-arcade,
-.fitness-gift{
+.fitness-gift,
+.tv-music{
   display: flex;
-  width:92vw;
+  width:90vw;
   margin: auto;
   
 }
@@ -542,7 +567,7 @@ font-size: 28px;
 /*term-conditions*/
 footer{
   background-color: #bfbfc7;
-  
+
 }
 .term-conditions {
   text-align: justify;
@@ -575,15 +600,63 @@ line-height: 16px;
   bottom: 15px;
 }
 .footer-list{
-  max-width: 900px; 
+  max-width: 950px; 
   margin: 0 auto;
 }
 li{
   list-style: none;
 }
+.border-line-2{
+  border-bottom: 1px solid #D2D2D7;
 
+  max-width: 800px; 
+  margin: 10 auto;
+  position: relative;
+  padding-top: 10px;
+
+}
+.footer-link-1 li:not(:first-child){
+  color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+}
+.footer-link-1 li:first-child{
+  font-family: SF Pro Text;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.copyright span:first-child,
+.more-way{
+  color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+}
+.copyright span:not(:first-child){
+  color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+}
 
   @media (max-width: 767px) {
+    nav{
+      background-color: rgba(9, 9, 9, 0.4) !important; /* Adjust the last value (alpha) between 0 and 1 */
+    }
+    header{
+      position: sticky;
+      top: 5px !important ;
+
+    }
     .cont {
       padding-left: 0;
     }
@@ -713,7 +786,8 @@ li{
   
 }
 .news-arcade,
-.fitness-gift{
+.fitness-gift,
+.tv-music {
   display: flex !important;
   flex-direction: column !important;
   width:98vw;
@@ -721,9 +795,17 @@ li{
 .news-plus,
 .arcade,
 .fitness,
-.gift-card{
+.gift-card,.tv{
   margin-top: 5px;
-width:98vw ;
+width:98vw;
+}
+.tv-show{
+  flex-wrap: nowrap !important;
+}
+.music{
+  margin-top: 10px;
+  width:98vw;
+  margin-left: 0px !important;
 }
 .Introducing{
   display: flex !important;
@@ -731,5 +813,11 @@ width:98vw ;
   width:98vw;
   margin: 5px !important;
 } 
+footer{
+  width:98vw !important ;
+}
+.footer-list{
+  padding-right: 30px !important;
+}
   }
 
